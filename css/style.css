@@ -1,0 +1,27 @@
+ul,
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container {
+    padding: 5px 50px;
+    background-color: violet;
+    width: 1280px;
+    margin: 0 auto;
+}
+.navigation {
+    display: flex;
+    font-size: 30px;
+    color: white;
+  /* background-color: rgb(29, 82, 29); */
+
+}
+.navigation__list{
+    
+    display: flex;
+}
+.navigation__item{
+padding: 10px;
+}
