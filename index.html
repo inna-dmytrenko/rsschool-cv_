@@ -5,183 +5,228 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="icon" href="assets/favicon.ico">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
 
   <body>
     <div class="container">
-    <header>
-      <nav class="navigation">
-        <ul class="navigation__list">
-          <li class="navigation__item">
-            <a href="">Contacts</a>
-          </li>
-          <li class="navigation__item">
-            <a href="">Summary</a>
-          </li>
-          <li class="navigation__item">
-            <a href="">Skills</a>
-          </li>
-          <li class="navigation__item">
-            <a href="">Code</a>
-          </li>
-          <li class="navigation__item">
-            <a href="">Projects</a>
-          </li>
-          <li class="navigation__item">
-            <a href="">Education</a>
-          </li>
-          <li class="navigation__item">
+      <header>
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="#contacts">Contacts</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#summary">Summary</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#skills">Skills</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#code">Code</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#projects">Projects</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#education">Education</a>
+            </li>
+            <!-- <li class="navigation__item">
             <a href="">English</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    
-      
-    <main>
-          <img src="./assets/img/avatar.jpg" alt="my photo" width="200" />
-          <h1>CV Inna Dmytrenko</h1>
-        <section>
-            <h2>Summary</h2>
-            <p>
-                Efficient Front-End developer with skills in HTML, CSS, JavaScript, and
-                React. Search for a full-time position in a company that's aimed at
-                making both everyday life and business easier, more productive and user-friendly. I have hands-on experience in
-                following Agile /Scrum methodology when working in a team. I'm ready to learn, and I'm a fast
-                learner, responsible, and ready for challenging tasks.
-        
-            </p>
-        </section>
-        <section>
-          <h2>Contacts</h2>
-          <ul>
-            <li type="tel">38(066)725-01-87</li>
-            <li>
-              <a href="https://linkedin.com/in/dmytreko"
-                >https://linkedin.com/in/dmytreko</a
-              >
+          </li> -->
+            <li class="navigation__item">
+              <a href="#experience">Work Experience</a>
             </li>
-            <li>
-              <a href="https://github.com/inna-dmytrenko"
-                >https://github.com/dmytreko</a
-              >
-            </li>
-            <li type="email">dmytinna@gmail.com</li>
-            <li type="adress">Kyiv, Ukraine</li>
           </ul>
-        </section>
-        <section>
-            <h2>Technical Skills</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS (Preprocessor SASS, BEM methodology)</li>
-                <li>Javascript</li>
-                <li>NodeJS</li>
-                <li>React, React hooks, Redux</li>
-                <li>Version control: Git (remote service GitHub).</li>
-                <li>Module Bundlers: Webpack.</li>
-                <li>Editors: VSCode</li>
-                <li>Styled components</li>
-                <li>Material-ui</li>
-                <li>Trello</li>
-                <li>Slack</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Soft Skills</h2>
-            <ul>
-                <li>Ability to analyze and structure information</li>
-                <li>Teamwork and results</li>
-                <li>Autonomy, responsibility and activism</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Language Skills</h2>
-            <ul>
-                <li>English - Pre-Intermediate</li>
-                <li>Ukrainian - Native</li>
-                <li>Russian - Native</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Project Examples</h2>
-            <ul>
-                <li><a href="https://elenmandrovskaya.github.io/dream-film/">
+        </nav>
+      </header>
+
+      <main>
+        <div class="main">
+          <div class="sidebar--left">
+            <img
+              class="photo"
+              src="./assets/img/avatar.jpg"
+              alt="my photo"
+              width="350"
+            />
+            <h1 class="name">Inna Dmytrenko</h1>
+            <h2 class="title">Trainee/Junior Front-End Developer</h2>
+            <section class="contacts" id="contacts">
+              <h2 class="title">Contacts</h2>
+              <ul class="contacts__list">
+                <li class="contacts__item" type="tel">38(066)725-01-87</li>
+                <li class="contacts__item">
+                  <a href="https://linkedin.com/in/dmytreko"
+                    >https://linkedin.com/in/dmytreko</a
+                  >
+                </li>
+                <li class="contacts__item">
+                  <a href="https://github.com/inna-dmytrenko"
+                    >https://github.com/dmytreko</a
+                  >
+                </li>
+                <li class="contacts__item" type="email">dmytinna@gmail.com</li>
+                <li class="contacts__item" type="adress">Kyiv, Ukraine</li>
+              </ul>
+            </section>
+            <section class="skills" id="skills">
+              <h2 class="title">Technical Skills</h2>
+              <ul class="skills__list">
+                <li class="skills__item">HTML</li>
+                <li class="skills__item">CSS (Preprocessor SASS, BEM methodology)</li>
+                <li class="skills__item">Javascript</li>
+                <li class="skills__item">NodeJS</li>
+                <li class="skills__item">React, React hooks, Redux</li>
+                <li class="skills__item">Version control: Git (remote service GitHub).</li>
+                <li class="skills__item">Module Bundlers: Webpack.</li>
+                <li class="skills__item">Editors: VSCode</li>
+                <li class="skills__item">Styled components</li>
+                <li class="skills__item">Material-ui</li>
+                <li class="skills__item">Trello</li>
+                <li class="skills__item">Slack</li>
+              </ul>
+            </section>
+            <section class="skills">
+              <h2 class="title">Soft Skills</h2>
+              <ul>
+                <li class="skills__item">Ability to analyze and structure information</li>
+                <li class="skills__item">Teamwork and results</li>
+                <li class="skills__item">Autonomy, responsibility and activism</li>
+              </ul>
+            </section>
+            <section class="skills">
+              <h2 class="title">Language Skills</h2>
+              <ul class="skills__list">
+                <li class="skills__item">English - Pre-Intermediate</li>
+                <li class="skills__item">Ukrainian - Native</li>
+                <li class="skills__item">Russian - Native</li>
+              </ul>
+            </section>
+          </div>
+          <div class="sidebar--right">
+            <section class="summary" id="summary">
+              <h2 class="title">Summary</h2>
+              <p class="summary__discription">
+                Efficient Front-End developer with skills in HTML, CSS,
+                JavaScript, and React. Search for a full-time position in a
+                company that's aimed at making both everyday life and business
+                easier, more productive and user-friendly. I have hands-on
+                experience in following Agile /Scrum methodology when working in
+                a team. I'm ready to learn, and I'm a fast learner, responsible,
+                and ready for challenging tasks.
+              </p>
+            </section>
+            <section class="project" id="projects">
+              <h2 class="title">Project Examples</h2>
+              <ul class="project__list">
+                <li class="project__item">
+                  <a href="https://elenmandrovskaya.github.io/dream-film/">
                     FILMOTEKA
-                </a>
-                    <a href="https://github.com/inna-dmytrenko/dream-film">
-                        https://github.com/
-                    </a>
-                    <p>[HTML, SASS, JS, Parcel, Handlebars, Firebase, REST API, Basiclightbox,
-                    Pnotify, Axios]
-                    The application where your movies are finally together. Role: Programmer.
-</p>
+                  </a>
+                  <a href="https://github.com/inna-dmytrenko/dream-film">
+                    https://github.com/
+                  </a>
+                  <p>
+                    [HTML, SASS, JS, Parcel, Handlebars, Firebase, REST API,
+                    Basiclightbox, Pnotify, Axios] The application where your
+                    movies are finally together. Role: Programmer.
+                  </p>
                 </li>
-                <li >
-                    <a href="https://kapusta-finance-tracker.netlify.app/">
-                        FINANCE-TRACKER
-                    </a>
-                    <a href="https://github.com/inna-dmytrenko/kapusta-itninja-front">
-                        https://github.com/
-                    </a>
-                    <p>[HTML, Redux Toolkit, JS, Emotion, ]
-                    Personal Finance Application. Role: Programmer.</p>
+                <li class="project__item">
+                  <a href="https://kapusta-finance-tracker.netlify.app/">
+                    FINANCE-TRACKER
+                  </a>
+                  <a
+                    href="https://github.com/inna-dmytrenko/kapusta-itninja-front"
+                  >
+                    https://github.com/
+                  </a>
+                  <p>
+                    [HTML, Redux Toolkit, JS, Emotion, ] Personal Finance
+                    Application. Role: Programmer.
+                  </p>
                 </li>
-                <li >
-                    <a href="https://netlify-movies-hw-5.netlify.app/">
-                        MOVIES
-                    </a>
-                    <a href="https://github.com/inna-dmytrenko/goit-react-hw-05-movies">
-                        https://github.com/
-                    </a>
-                    <p>[HTML, CSS Modules, JS, Material-ui, React hooks, React, Loader]
-                    Application for choosing a movie</p>
+                <li class="project__item">
+                  <a href="https://netlify-movies-hw-5.netlify.app/">
+                    MOVIES
+                  </a>
+                  <a
+                    href="https://github.com/inna-dmytrenko/goit-react-hw-05-movies"
+                  >
+                    https://github.com/
+                  </a>
+                  <p>
+                    [HTML, CSS Modules, JS, Material-ui, React hooks, React,
+                    Loader] Application for choosing a movie
+                  </p>
                 </li>
-                <li >
-                    <a href="https://inna-dmytrenko.github.io/goit-react-hw-08-phonebook/">
-                        PHONEBOOK
-                    </a>
-                    <a href="https://github.com/inna-dmytrenko/goit-react-hw-08-phonebook">
-                        https://github.com/
-                    </a>
-                    <p>[HTML, Styled components, JS, Material-ui, React hooks, Axios, Nanoid,
-                    React]
-                    Application for writing contacts.</p>
+                <li class="project__item">
+                  <a
+                    href="https://inna-dmytrenko.github.io/goit-react-hw-08-phonebook/"
+                  >
+                    PHONEBOOK
+                  </a>
+                  <a
+                    href="https://github.com/inna-dmytrenko/goit-react-hw-08-phonebook"
+                  >
+                    https://github.com/
+                  </a>
+                  <p>
+                    [HTML, Styled components, JS, Material-ui, React hooks,
+                    Axios, Nanoid, React] Application for writing contacts.
+                  </p>
                 </li>
-            </ul>
-        </section>
-        <section>
-            <h2>Work Experience</h2>
-            <h3>LEADING SPECIALIST IN THE DEPARTMENT OF INVOICES AND PAYMENTS</h3>
-                <ul>Sberbank joint stock company | 2019
-                    <li>Centralized processing of documents for the deposit of persons or legalentities;</li>
-                    <li>Transfer of documents for further processing;</li>
-                    <li>Consideration of applications from bank clients.</li>
-                </ul>
-                <h3>СOMPUTER OPERATOR</h3>
-                <ul>"ViYar" | 2018
-                    <li>Maintenance and analysis of reports in program 1C;</li>
-                    <li>Document management;</li>
-                    <li>Work at MS Office.</li>
-                </ul>            
-        </section>
-        <section>
-            <h2>Education</h2>
-            <h3>KROK University</h3>
-            <p>Master's degree in Finance
-            2004 | 2009</p>
-        </section>
-        <section>
-            <h2>Additional Education</h2>
-            <h3>IT School GoIT (Kyiv)</h3>
-            <p>Full-Stack Developer
-            2020 | 2021</p>
-        </section>
-        
+              </ul>
+            </section>
+            <section class="code" id="code">
+              <h2 class="title">Example code</h2>
+              <img
+                src="./assets/img/codewars.png"
+                alt="codewars"
+                width="100%"
+              />
+            </section>
+            <section class="experience" id="experience">
+              <h2 class="title">Work Experience</h2>
+              <h3 class="experience__title">
+                LEADING SPECIALIST IN THE DEPARTMENT OF INVOICES AND PAYMENTS
+              </h3>
+              <ul class="experience__list">
+                <h4>Sberbank joint stock company | 2019</h4> 
+                <li class="experience__item">
+                  Centralized processing of documents for the deposit of persons
+                  or legalentities;
+                </li >
+                <li class="experience__item">Transfer of documents for further processing;</li>
+                <li class="experience__item">Consideration of applications from bank clients.</li>
+              </ul>
+              <h3 class="experience__title">СOMPUTER OPERATOR</h3>
+              <ul class="experience__list">
+                <h4>"ViYar" | 2018</h4>
+                <li class="experience__item">Maintenance and analysis of reports in program 1C;</li>
+                <li class="experience__item">Document management;</li>
+                <li class="experience__item">Work at MS Office.</li>
+              </ul>
+            </section>
+            <section class="education" id="education">
+              <h2 class="title">Education</h2>
+              <h3 class="education__title">KROK University</h3>
+              <p>Master's degree in Finance 2004 | 2009</p>
+            </section>
+            <section>
+              <h2 class="title">Additional Education</h2>
+              <h3 class="education__title">IT School GoIT (Kyiv)</h3>
+              <p>Full-Stack Developer 2020 | 2021</p>
+            </section>
+          </div>
+        </div>
       </main>
     </div>
   </body>
