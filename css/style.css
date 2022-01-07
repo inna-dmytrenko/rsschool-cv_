@@ -122,6 +122,12 @@ body {
 .education__title {
   margin-bottom: 10px;
 }
+.example__code{
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+  line-height: 1.6em;
+}
+
 .footer>ul{
     display: flex;
     flex-wrap: nowrap;
